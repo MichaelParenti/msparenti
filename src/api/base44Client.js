@@ -1,3 +1,14 @@
-// This file is intentionally left as a generic API placeholder.
-// Replace with your own client implementation when integrating backend APIs.
-export const apiClient = null;
+import { createClient } from '@base44/sdk';
+import { appParams } from '@/lib/app-params';
+
+const { appId, token, functionsVersion, appBaseUrl } = appParams;
+
+//Create a client with authentication required
+export const base44 = createClient({
+  appId,
+  token,
+  functionsVersion,
+  serverUrl: '',
+  requiresAuth: false,
+  appBaseUrl
+});

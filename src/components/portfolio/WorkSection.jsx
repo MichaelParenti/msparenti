@@ -5,7 +5,7 @@ import { ExternalLink, Globe } from 'lucide-react';
 const projects = [
   {
     title: 'Multiply Movement Hub',
-    url: 'https://multiply-movement-hub.example.com/',
+    url: 'https://multiply-movement-hub.base44.app/',
     description: 'A modern web application built to power a community movement. Features a clean, responsive UI with dynamic content management.',
     tags: ['React', 'Full-Stack', 'Web App'],
     color: '#00e5ff',
