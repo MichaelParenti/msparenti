@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>M S Parenti Portfolio</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and converts the path and query
+      // string into just a query string, and then redirects the browser
+      // to the new url with only a query string and hash fragment,
+      // e.g., https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+      // Note: this 404.html file must be at least 512 bytes for it to work
+      // with Internet Explorer (it is currently > 512 bytes)
+
+      // If you're creating a Project Pages site and NOT using a custom domain,
+      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
+      // This way the code will only replace the route part and not the real directory.
+      // For example, if your repository is 'my-app', and you're using GitHub Pages
+      // with a custom domain, then the URL would be 'https://my-custom-domain.com/my-app'
+      // In this case, you would set pathSegmentsToKeep to 1.
+      // If you're not using a custom domain, the URL would be 'https://username.github.io/my-app'
+      // In this case, you would set pathSegmentsToKeep to 2.
+      // This script will take the pathname of the url and convert it with a query parameter.
+      // This script will also work with a custom domain, but you would need to set pathSegmentsToKeep accordingly.
+
+      var pathSegmentsToKeep = 2;
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html></content>
+<parameter name="filePath">c:\Users\M-Cod\OneDrive\Documents\GitHub\msparenti\public\404.html
