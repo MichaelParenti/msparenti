@@ -5,7 +5,7 @@ import { ExternalLink, Globe } from 'lucide-react';
 const projects = [
   {
     title: 'Multiply Movement Hub',
-    url: 'https://multiply-movement-hub.base44.app/',
+    url: 'https://multiplycollectivedashboard.base44.app/',
     description: 'A modern web application built to power a community movement. Features a clean, responsive UI with dynamic content management.',
     tags: ['React', 'Full-Stack', 'Web App'],
     color: '#00e5ff',
@@ -33,14 +33,14 @@ const projects = [
   },
   {
     title: 'QuizStuff',
-    url: 'https://quizstuff.org',
+    url: 'https://www.quizstuff.org',
     description: 'An e-commerce platform for purchasing equipment and accessing digital software products. Clean shopping experience with product management.',
     tags: ['JavaScript', 'PHP', 'MySQL'],
     color: '#ffd700',
   },
   {
     title: 'Lombard Church',
-    url: 'https://lombardchurch.org',
+    url: 'https://www.lombardchurch.org',
     description: 'Full church website with ministry pages and congregation-focused features. Built for accessibility and ease of use.',
     tags: ['HTML', 'CSS', 'JS', 'CMS'],
     color: '#ff8c00',
