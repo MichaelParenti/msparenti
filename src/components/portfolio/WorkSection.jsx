@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: 'Michael Parenti Archive',
-    url: 'https://michaelparenti.github.io/michael-parenti',
+    url: 'https://michaelparenti.github.io/Michael-Parenti/',
     description: 'A GitHub Pages-hosted archive and tribute site for Michael Parenti. Static, fast, and built for longevity with clean semantic markup.',
     tags: ['HTML', 'CSS', 'GitHub Pages'],
     color: '#00d26a',
