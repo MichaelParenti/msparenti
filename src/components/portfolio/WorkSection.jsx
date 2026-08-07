@@ -4,13 +4,6 @@ import { ExternalLink, Globe } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Multiply Movement Hub',
-    url: 'https://multiplycollectivedashboard.base44.app/',
-    description: 'A modern web application built to power a community movement. Features a clean, responsive UI with dynamic content management.',
-    tags: ['React', 'Full-Stack', 'Web App'],
-    color: '#00e5ff',
-  },
-  {
     title: 'Chicago Central District (CCDNAZ)',
     url: 'https://ccdnaz.org',
     description: 'Church district website with event listings, church finder, and donation integration. Clean, professional design serving a wide audience.',
