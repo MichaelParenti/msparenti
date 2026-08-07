@@ -1,4 +1,4 @@
-# Matthew Parenti Portfolio
+# Michael Parenti Portfolio
 
 Standalone Vite + React portfolio site. It requires no API keys or environment variables.
 
