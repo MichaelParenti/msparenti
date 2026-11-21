@@ -19,5 +19,5 @@ npm run build
 
 The GitHub Actions workflow builds the site and deploys it to GitHub Pages whenever
 you push to `main`. In the repository's **Settings → Pages**, set the build and
-deployment source to **GitHub Actions**. The production build uses the
-`/msparenti/` project-site path; local development continues to use `/`.
+deployment source to **GitHub Actions**. The production build uses the root path
+for the custom domain `msparenti.com`.
