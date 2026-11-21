@@ -57,13 +57,13 @@ export default function NavBar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/pricing/"
             className="font-mono text-xs uppercase tracking-widest px-4 py-2 border rounded transition-all duration-200"
             style={{ borderColor: '#00e5ff', color: '#00e5ff' }}
             onMouseEnter={e => { e.target.style.backgroundColor = 'rgba(0,229,255,0.1)'; e.target.style.boxShadow = '0 0 15px rgba(0,229,255,0.3)'; }}
             onMouseLeave={e => { e.target.style.backgroundColor = 'transparent'; e.target.style.boxShadow = 'none'; }}
           >
-            Hire Me
+            Pricing
           </a>
         </div>
 
@@ -96,6 +96,13 @@ export default function NavBar() {
                   {link.label}
                 </a>
               ))}
+              <a
+                href="/pricing/"
+                onClick={() => setMenuOpen(false)}
+                className="font-mono text-sm uppercase tracking-widest text-[#00e5ff] hover:text-white transition-colors"
+              >
+                Pricing
+              </a>
             </div>
           </motion.div>
         )}
