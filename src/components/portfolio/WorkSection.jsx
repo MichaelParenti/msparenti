@@ -32,11 +32,18 @@ const projects = [
     color: '#ffd700',
   },
   {
-    title: 'Lombard Church',
-    url: 'https://www.lombardchurch.org',
-    description: 'Full church website with ministry pages and congregation-focused features. Built for accessibility and ease of use.',
-    tags: ['HTML', 'CSS', 'JS', 'CMS'],
+    title: 'Community House Network',
+    url: 'https://communityhousenetwork.com',
+    description: 'An organic church planting network supporting ministry in communities, homes, and everyday life.',
+    tags: ['Church Planting', 'Community', 'Coaching'],
     color: '#ff8c00',
+  },
+  {
+    title: 'Ascensa',
+    url: 'https://ascensacoaching.com',
+    description: 'Leadership coaching and technical consulting in software, networking, and audio engineering.',
+    tags: ['Leadership', 'Consulting', 'Coaching'],
+    color: '#00e5ff',
   },
 ];
 
