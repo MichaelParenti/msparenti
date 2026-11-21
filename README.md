@@ -15,4 +15,9 @@ npm run dev
 npm run build
 ```
 
-Deploy the contents of `dist/` to the web root for your domain.
+## GitHub Pages
+
+The GitHub Actions workflow builds the site and deploys it to GitHub Pages whenever
+you push to `main`. In the repository's **Settings → Pages**, set the build and
+deployment source to **GitHub Actions**. The production build uses the
+`/msparenti/` project-site path; local development continues to use `/`.
